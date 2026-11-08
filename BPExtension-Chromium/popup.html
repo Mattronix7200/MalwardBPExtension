@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Malward Browser Protection</title>
+  <link rel="stylesheet" href="css/malward-popup.css">
+</head>
+<body>
+  <main class="popup-shell">
+    <header class="brand-row"><img src="img/logo.png" alt="Malward Browser Protection"><i id="status-dot" class="status-dot" title="Checking protection"></i></header>
+    <section class="site-status"><div class="checkmark" aria-hidden="true"><img id="popup-status-icon" src="img/check-mark.png" alt=""></div><div><strong id="current-site">Checking page…</strong><p id="current-state">Ad and URL protection work automatically.</p></div></section>
+    <section class="counter-grid"><div><span id="tab-label">On this page</span><strong id="tab-count">0</strong></div><div><span id="total-label">Total by extension</span><strong id="total-count">0</strong></div></section>
+    <section class="vdeb-status"><span id="url-shield-label">Malward URL Shield</span><strong id="vdeb-status">Connecting to database…</strong></section>
+    <button id="exception-button" class="exception-button" type="button" hidden>Add exception for this domain</button>
+    <button id="element-picker-button" class="element-picker-button" type="button"><span aria-hidden="true">⌖</span><span id="element-picker-label">Block an element on this page</span></button>
+    <footer><button id="matched-button" type="button">Recent blocks</button><button id="settings-button" type="button" aria-label="Settings">⚙</button></footer>
+  </main>
+  <script src="js/malward-popup.js" type="module"></script>
+</body>
+</html>

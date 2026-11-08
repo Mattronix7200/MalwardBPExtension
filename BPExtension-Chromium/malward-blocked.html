@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Blocked page — Malward</title>
+  <link rel="icon" type="image/png" href="img/malward-icon.png">
+  <link rel="stylesheet" href="css/malward-blocked.css">
+</head>
+<body>
+  <main class="warning-card">
+    <header class="warning-header"><div class="warning-icon" aria-hidden="true">⚠</div><div><h1 id="blocked-title">Blocked page</h1><p id="blocked-lead">Malward network protection blocked access to this website.</p></div></header>
+    <section class="warning-content">
+      <dl class="details"><div><dt id="url-label">URL ADDRESS</dt><dd id="blocked-host">Unknown domain</dd></div><div><dt id="detection-label">DETECTION</dt><dd id="detection-value">Unsafe website <small>Malicious URL</small></dd></div><div><dt id="source-label">SOURCE</dt><dd id="source-value">Malward URL database</dd></div></dl>
+      <div id="explanation" class="explanation">This page was classified as malicious or untrusted. Opening it may lead to data theft, a malicious download or tracking.</div>
+      <div class="actions"><button id="back-button" type="button">← Take me back</button><button id="exception-button" class="secondary" type="button" hidden>Add domain exception</button></div><p id="exception-status" class="exception-status" aria-live="polite"></p>
+    </section>
+    <footer><img src="img/logo.png" alt="Malward Browser Protection"><span id="generated-at"></span></footer>
+  </main>
+  <script src="js/malward-blocked-date.js"></script>
+  <script type="module" src="js/malward-blocked.js"></script>
+</body>
+</html>

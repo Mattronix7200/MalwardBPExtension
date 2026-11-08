@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=yes">
+<meta name="color-scheme" content="light dark">
+<title>Strona ostrzeżenia — Malward</title>
+<link rel="shortcut icon" type="image/png" href="img/malward-icon.png">
+<link rel="stylesheet" href="css/malward-strictblock.css">
+</head>
+<body class="loading">
+<main id="rootContainer">
+    <header class="strict-brand"><img src="img/logo.png" alt="Malward Browser Protection"><span>Ostrzeżenie przed otwarciem strony</span></header>
+    <section class="strict-warning"><div id="warningSign" aria-hidden="true">!</div><div><h1>Strona została zatrzymana przez filtr ochronny</h1><p>Przed kontynuowaniem sprawdź adres i upewnij się, że strona jest zaufana.</p></div></section>
+    <section class="strict-content"><p>Adres, który próbujesz otworzyć:</p><div id="theURL" class="collapsed"><p class="code"><span>&nbsp;</span><span id="toggleParse" class="hidden"><span>Rozwiń szczegóły</span><span>Zwiń szczegóły</span></span></p><ul id="parsed"></ul></div><div id="reason" hidden></div><div id="urlskip" hidden></div></section>
+    <label class="remember"><input type="checkbox" id="disableWarning"><span>Nie pokazuj ponownie ostrzeżenia dla tej domeny</span></label>
+    <div id="actionContainer"><button id="back" type="button">Wróć</button><button id="bye" type="button">Zamknij kartę</button><button id="proceed" class="preferred" type="button">Otwórz mimo ostrzeżenia</button></div>
+</main>
+<script src="js/theme.js" type="module"></script>
+<script src="js/i18n.js" type="module"></script>
+<script src="js/strictblock.js" type="module"></script>
+</body>
+</html>
