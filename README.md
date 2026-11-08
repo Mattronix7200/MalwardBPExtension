@@ -1,10 +1,14 @@
-# Malward Browser Protection
+<p align="center"><img width="50%" align="absmiddle" alt="" src="https://github.com/user-attachments/assets/0aaa0b8a-34ea-4013-a8f0-4be03010bb6d" /></p>
 
-Free browser extension, which helps you browse more safely and comfortably. It blocks intrusive ads, trackers and unwanted network requests using efficient Manifest V3 filtering rules. It also provides shield, which checks visited website domains and warns you before opening websites identified as harmful or untrusted.
+#
 
-## Builds
+Free browser extension, which helps you browse more safely and comfortably. It blocks intrusive ads, trackers and unwanted network requests using efficient ManifestV3 (MV3) filtering rules. It also provides shield, which checks visited website domains and warns you before opening websites identified as harmful or untrusted.
 
-| Directory | Browsers |
+<img width="1233" height="752" alt="enb" src="https://github.com/user-attachments/assets/084d13d5-e5b2-4b0c-a880-6fd2bfac65e2" />
+
+## Builds 
+
+| Directory | Supported browsers |
 | --- | --- |
 | `BPExtension-Chromium` | Chrome, Edge, Opera |
 | `BPExtension-Firefox` | Firefox |
@@ -13,12 +17,15 @@ Both are Manifest V3. The Chromium build runs a service worker, the Firefox buil
 
 ## Installation
 
+At this moment it's only possible to download extension from Microsoft Store.
+
 | Browser | Download |
 | :--- | :---: |
 | <img src="docs/img/edge.png" width="24" align="absmiddle" alt=""> &nbsp;**Microsoft Edge** | [<img src="docs/img/ms-store-badge.png" height="36" alt="Download from the Microsoft Store">](https://microsoftedge.microsoft.com/addons/detail/malward-browser-protectio/cclpcookdcbmnloggjiojoknioeellan) |
-| <img src="docs/img/chrome.png" width="24" align="absmiddle" alt=""> &nbsp;**Google Chrome** | manually |
-| <img src="docs/img/opera.png" width="24" align="absmiddle" alt=""> &nbsp;**Opera** | manually |
-| <img src="docs/img/firefox.png" width="24" align="absmiddle" alt=""> &nbsp;**Mozilla Firefox** | manually |
+| <img src="docs/img/chrome.png" width="24" align="absmiddle" alt=""> &nbsp;**Google Chrome** | - |
+| <img src="docs/img/opera.png" width="24" align="absmiddle" alt=""> &nbsp;**Opera** | - |
+| <img src="docs/img/firefox.png" width="24" align="absmiddle" alt=""> &nbsp;**Mozilla Firefox** | - |
+
 
 ### Installing manually from the ZIP
 
