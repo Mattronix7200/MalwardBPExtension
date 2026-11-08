@@ -6,7 +6,7 @@ Free browser extension, which helps you browse more safely and comfortably. It b
 
 | Directory | Browsers |
 | --- | --- |
-| `BPExtension-Chromium` | Chromium based browser, eg: Chrome, Edge, Opera |
+| `BPExtension-Chromium` | Chrome, Edge, Opera |
 | `BPExtension-Firefox` | Firefox |
 
 Both are Manifest V3. The Chromium build runs a service worker, the Firefox build uses background scripts and carries `browser_specific_settings`.
