@@ -15,10 +15,10 @@ Both are Manifest V3. The Chromium build runs a service worker, the Firefox buil
 
 | Browser | Download |
 | :--- | :---: |
-| <img src="https://github.com/user-attachments/assets/24fa6369-3b9b-43f3-8b5c-054b70b4f427" width="24" align="absmiddle" alt=""> &nbsp;**Microsoft Edge** | [<img src="https://github.com/user-attachments/assets/aa843c96-7fb7-4bd2-bd58-7ee92f7c8aa9" height="36" alt="Download from the Microsoft Store">](https://microsoftedge.microsoft.com/addons/detail/malward-browser-protectio/cclpcookdcbmnloggjiojoknioeellan) |
-| <img src="https://github.com/user-attachments/assets/7f0a444f-e2db-4ecf-a8d0-4f5fed0c5488" width="24" align="absmiddle" alt=""> &nbsp;**Google Chrome** | manually |
-| <img src="https://github.com/user-attachments/assets/29ff6b54-55c9-4956-9c4e-12033556425f" width="24" align="absmiddle" alt=""> &nbsp;**Opera** | manually |
-| <img src="https://github.com/user-attachments/assets/24689a02-8e80-4a2d-860e-e220b1844939" width="24" align="absmiddle" alt=""> &nbsp;**Mozilla Firefox** | manually |
+| <img src="docs/img/edge.png" width="24" align="absmiddle" alt=""> &nbsp;**Microsoft Edge** | [<img src="docs/img/ms-store-badge.png" height="36" alt="Download from the Microsoft Store">](https://microsoftedge.microsoft.com/addons/detail/malward-browser-protectio/cclpcookdcbmnloggjiojoknioeellan) |
+| <img src="docs/img/chrome.png" width="24" align="absmiddle" alt=""> &nbsp;**Google Chrome** | manually |
+| <img src="docs/img/opera.png" width="24" align="absmiddle" alt=""> &nbsp;**Opera** | manually |
+| <img src="docs/img/firefox.png" width="24" align="absmiddle" alt=""> &nbsp;**Mozilla Firefox** | manually |
 
 ### Installing manually from the ZIP
 
