@@ -4,16 +4,24 @@
 
 Free browser extension, which helps you browse more safely and comfortably. It blocks intrusive ads, trackers and unwanted network requests using efficient ManifestV3 (MV3) filtering rules. It also provides shield, which checks visited website domains and warns you before opening websites identified as harmful or untrusted.
 
+## Key features
+
+- Effective ad and tracker blocking  
+- Malicious website protection
+- Manifest V3-compatible filtering engine  (based on uBlock Origin)
+- Built-in community filter lists and support for custom filter lists  
+- Element picker for blocking unwanted page elements yourself  
+- Custom filtering rules and URL-shield exceptions  
+- Clear statistics for blocked ads, harmful URLs and frequently blocked domains  
+- Light, fast and designed for modern Chromium browsers  
+
+&nbsp;
+
 <img width="1233" height="752" alt="enb" src="https://github.com/user-attachments/assets/084d13d5-e5b2-4b0c-a880-6fd2bfac65e2" />
 
-## Builds 
+&nbsp;
 
-| Directory | Supported browsers |
-| --- | --- |
-| `BPExtension-Chromium` | Chrome, Edge, Opera |
-| `BPExtension-Firefox` | Firefox |
-
-Both are Manifest V3. The Chromium build runs a service worker, the Firefox build uses background scripts and carries `browser_specific_settings`.
+<img width="1235" height="802" alt="image" src="https://github.com/user-attachments/assets/594cc2b0-7131-46d1-97e6-444084c05ef7" />
 
 ## Installation
 
@@ -26,6 +34,14 @@ At this moment it's only possible to download extension from Microsoft Store.
 | <img src="docs/img/opera.png" width="24" align="absmiddle" alt=""> &nbsp;**Opera** | - |
 | <img src="docs/img/firefox.png" width="24" align="absmiddle" alt=""> &nbsp;**Mozilla Firefox** | - |
 
+## Builds 
+
+| Directory | Supported browsers |
+| --- | --- |
+| `BPExtension-Chromium` | Chrome, Edge, Opera |
+| `BPExtension-Firefox` | Firefox |
+
+Both are Manifest V3. The Chromium build runs a service worker, the Firefox build uses background scripts and carries `browser_specific_settings`.
 
 ### Installing manually from the ZIP
 
@@ -46,6 +62,10 @@ The extension stays installed after a restart. These browsers cannot install a `
 3. Select the `manifest.json` file inside the `BPExtension-Firefox` folder.
 
 Firefox removes temporary add-ons when it is closed, so this has to be repeated after every restart. A permanent install requires the package to be signed by Mozilla.
+
+## Privacy
+
+Malward Browser Protection performs filtering locally in your browser. When website protection is enabled, only the visited domain name is sent to determine whether it is known to be harmful. The extension does not collect website text, images, passwords, form data or personal messages. No browser extension can guarantee complete protection from every online threat. Always use caution when opening links, downloading files or entering sensitive information online.
 
 ## Licence
 
