@@ -25,14 +25,14 @@ Free browser extension, which helps you browse more safely and comfortably. It b
 
 ## Installation
 
-At this moment it's only possible to download extension from Microsoft Store.
+At this moment it's only possible to download extension to Edge and Firefox. Links are below:
 
 | Browser | Download |
 | :--- | :---: |
-| <img src="docs/img/edge.png" width="24" align="absmiddle" alt=""> &nbsp;**Microsoft Edge** | [<img src="docs/img/ms-store-badge.png" height="36" alt="Download from the Microsoft Store">](https://microsoftedge.microsoft.com/addons/detail/malward-browser-protectio/cclpcookdcbmnloggjiojoknioeellan) |
+| <img src="docs/img/edge.png" width="24" align="absmiddle" alt=""> &nbsp;**Microsoft Edge** | [<img src="docs/img/ms-store-badge.png" height="36" alt="Download from the Microsoft Store">](https://microsoftedge.microsoft.com/addons/detail/malward-browser-protectio/cclpcookdcbmnloggjiojoknioeellan) <br> <a href="https://microsoftedge.microsoft.com/addons/detail/malward-browser-protectio/cclpcookdcbmnloggjiojoknioeellan">Link</a> |
 | <img src="docs/img/chrome.png" width="24" align="absmiddle" alt=""> &nbsp;**Google Chrome** | - |
 | <img src="docs/img/opera.png" width="24" align="absmiddle" alt=""> &nbsp;**Opera** | - |
-| <img src="docs/img/firefox.png" width="24" align="absmiddle" alt=""> &nbsp;**Mozilla Firefox** | - |
+| <img src="docs/img/firefox.png" width="24" align="absmiddle" alt=""> &nbsp;**Mozilla Firefox** | [<img height="36" alt="fwa" src="https://github.com/user-attachments/assets/fe71fe91-044d-4a2f-93e3-4dbab5150e75" />](https://addons.mozilla.org/pl/firefox/addon/malward-browser-protection/) <br> <a href="https://addons.mozilla.org/pl/firefox/addon/malward-browser-protection/">Link</a> |
 
 ## Builds 
 
